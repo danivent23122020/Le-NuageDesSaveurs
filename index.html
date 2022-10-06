@@ -1,54 +1,157 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr">
     <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
         <!--========== BOX ICONS ==========-->
-        <link href='https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css' rel='stylesheet'>
+        <link
+            href="https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css"
+            rel="stylesheet"
+        />
 
         <!--========== CSS ==========-->
-        <link rel="stylesheet" href="./css/style.css">
+        <link rel="stylesheet" href="./css/style.css" />
 
-        <title>Aro Food</title>
+        <title>Le nuage des Saveurs</title>
     </head>
     <body>
-
         <!--========== SCROLL TOP ==========-->
-        
-
+        <a href="#" class="scrolltop" id="scroll-top">
+            <i class="bx bx-chevron-up scrolltop__icon"></i>
+        </a>
         <!--========== HEADER ==========-->
         <header class="l-header" id="header">
- 
+            <nav class="nav bd-container">
+                <a href="#" class="nav__logo">Le Nuage des Saveurs</a>
+                <!-- listes -->
+                <div class="nav__menu" id="nav-menu">
+                    <ul class="nav__list">
+                        <li class="nav__item">
+                            <a href="#" class="nav__link">Accueil</a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="#" class="nav__link">A propos</a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="#" class="nav__link">Nos services</a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="#" class="nav__link">Menu</a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="#" class="nav__link">Contact</a>
+                        </li>
+                        <li class="nav__item">
+                            <i
+                                class="bx bx-moon change-theme"
+                                id="theme-button"
+                            ></i>
+                        </li>
+                    </ul>
+                </div>
+                <!-- toggle -->
+                <div class="nav__toggle" id="nav-toggle"></div>
+                <i class="bx bx-menu"></i>
+            </nav>
         </header>
-
+        <!---------- Main ---------->
         <main class="l-main">
             <!--========== HOME ==========-->
- 
-            
+            <section class="home" id="home">
+                <div class="home__container bd-container bd-grid">
+                    <div class="home__data">
+                        <h1 class="home__title">Nos plats</h1>
+                        <h2 class="home__subtitle">
+                            Testez nos meilleurs plats de la semaine
+                        </h2>
+                        <a href="" class="button">Voir nos menus</a>
+                    </div>
+                    <img src="./img/home.png" alt="" class="home__img" />
+                </div>
+            </section>
             <!--========== ABOUT ==========-->
-
-
+            <section class="about section bd-container" id="about">
+                <div class="about__container bd-container bd-grid">
+                    <div class="about__data">
+                        <span class="section-subtitle about__initial"
+                            >À propos</span
+                        >
+                        <h2 class="section-title about__initial">
+                            Nous cuisinons les meilleurs plats
+                        </h2>
+                        <p class="about__description">
+                            Nous cuisinons les meilleurs plats de toute la
+                            ville, avec un excellent service client, les
+                            meilleurs produits le tout au meilleur prix !
+                        </p>
+                        <a href="" class="button">Notre histoire</a>
+                    </div>
+                    <img src="./img/about.jpg" alt="" class="about" />
+                </div>
+            </section>
             <!--========== SERVICES ==========-->
-
-
+            <section class="services section bd-container" id="services">
+                <div class="about__container bd-container bd-grid">
+                    <span class="section-subtitle">Nos services</span>
+                    <h2 class="section-title">Nos super services</h2>
+                    <div class="services__container bd-grid">
+                        <!-- cards services -->
+                        <div class="services__content">
+                            <img
+                                src="./img/dish.svg"
+                                class="services__img"
+                                alt=""
+                            />
+                            <h3 class="services__title">Notre service</h3>
+                            <p class="services__description">
+                                Nous vous offrons le meilleur service depuis
+                                avec 15 années d'expériences ainsi que les
+                                meillerus produits.
+                            </p>
+                        </div>
+                        <div class="services__content">
+                            <img
+                                src="./img/pizza.svg"
+                                class="services__img"
+                                alt=""
+                            />
+                            <h3 class="services__title">Repas Gourmand</h3>
+                            <p class="services__description">
+                                Nous vous offrons le meilleur service depuis
+                                avec 15 années d'expériences ainsi que les
+                                meillerus produits.
+                            </p>
+                        </div>
+                        <div class="services__content">
+                            <img
+                                src="./img/truck.svg"
+                                class="services__img"
+                                alt=""
+                            />
+                            <h3 class="services__title">Livraison</h3>
+                            <p class="services__description">
+                                Nous vous offrons le meilleur service depuis
+                                avec 15 années d'expériences ainsi que les
+                                meillerus produits.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </section>
             <!--========== MENU ==========-->
-
 
             <!--===== APP =======-->
 
-
             <!--========== CONTACT US ==========-->
-
         </main>
 
         <!--========== FOOTER ==========-->
-
 
         <!--========== SCROLL REVEAL ==========-->
         <script src="https://unpkg.com/scrollreveal"></script>
 
         <!--========== MAIN JS ==========-->
-        <script src="assets/js/main.js"></script>
+        <script src="./js/main.js"></script>
     </body>
 </html>

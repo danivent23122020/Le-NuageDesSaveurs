@@ -285,6 +285,8 @@ img {
     background-color: var(--first-color-alt);
 }
 /* responsive home */
+@media screen and (max-width: 768px) {
+}
 @media screen and (max-width: 576px) {
     .home__title {
         text-align: center;
@@ -342,6 +344,8 @@ img {
     justify-content: center;
 }
 .menu__content {
+    width: 250px;
+    margin: 0 auto;
     position: relative;
     display: flex;
     flex-direction: column;

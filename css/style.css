@@ -272,7 +272,6 @@ img {
     color: var(--title-color);
     margin-bottom: var(--mb-4);
 }
-
 /* Buttons */
 .button {
     display: inline-block;
@@ -284,6 +283,20 @@ img {
 }
 .button:hover {
     background-color: var(--first-color-alt);
+}
+/* responsive home */
+@media screen and (max-width: 576px) {
+    .home__title {
+        text-align: center;
+    }
+    .home__subtitle {
+        text-align: center;
+    }
+    .button {
+        display: block;
+        width: 150px;
+        margin: 0 auto;
+    }
 }
 
 /* About */

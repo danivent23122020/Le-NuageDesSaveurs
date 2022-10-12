@@ -233,8 +233,8 @@ img {
 /* Scroll top */
 .scrolltop {
     position: fixed;
-    right: 2rem;
-    bottom: 2rem;
+    right: 3rem;
+    bottom: 3rem;
     display: flex;
     justify-content: center;
     align-items: center;

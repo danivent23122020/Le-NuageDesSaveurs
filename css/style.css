@@ -187,11 +187,15 @@ img {
     margin-bottom: var(--mb-2);
 }
 
-.nav__link,
 .nav__logo,
+.nav__link,
 .nav__toggle {
     color: var(--text-color);
     font-weight: var(--font-medium);
+}
+.nav__logo {
+    font-size: var(--h1-font-size);
+    font-family: "Kaushan Script", cursive;
 }
 
 .nav__logo:hover {
